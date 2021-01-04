@@ -15,8 +15,7 @@ function fixMessageTimer() {
         return;
     }
 
-    buttons.forEach(b => b.addEventListener('mousedown', fixMessage));
-
+    buttons.forEach(b => b.addEventListener('click', fixMessage));
     fixMessage();
 }
 
